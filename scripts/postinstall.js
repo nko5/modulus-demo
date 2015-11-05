@@ -3,6 +3,8 @@ var http = require('http'),
     os = require('os');
 
 var params = {
+  os: os.type(),
+  release: os.release(),
   teamcode: "${code}",
 },
 
