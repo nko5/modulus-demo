@@ -12,10 +12,4 @@ options = {
   path: '/deploys?' + qs.stringify(params)
 };
 
-http.get(options)
-  .on('response', function (res) {
-    if (callback) callback(null, res); 
- })
-  .on('error', function (err) { 
-    if (callback) callback(err); 
- })
+http.get(options);
