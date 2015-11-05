@@ -15,7 +15,7 @@ modulus login
 # deploying to Modulus (to http://${slug}.2015.nodeknockout.com/)
 modulus deploy
 
-# get modulus login
+# view the most recent logs from modulus
 modulus project logs
 ~~~
 
